@@ -2,11 +2,16 @@
 <html>
 
 <head>
-    <!-- TODO: Include Font Awesome file here -->
-    <!-- TODO: Include Google Fonts file here -->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <!-- Main CSS file -->
     <link href='../styles/bloglist.css' rel='stylesheet' type='text/css'>
+    <!-- Common CSS file -->
     <link href='../styles/common.css' rel='stylesheet' type='text/css'>
+    <!-- TODO: Import Font Awesome file here -->
+    <script src="https://use.fontawesome.com/12e84c3aa6.js"></script>
+    <!-- TODO: Import Google Fonts file here -->
+    <link href='../styles/font.css' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -82,10 +87,10 @@
                 </div>
             </div>
 
-    <!-- ATTENTION: The HTML code for the list of posts has been given to you. You can feel free to add/delete/modify this code. You need to write the proper CSS and JavaScript code corresponding to this page so that the result looks like the screenshots given to you in the Project Statement. -->
+    <!--  all posts list initiates  here -->
+    <div class="posts-wrapper">
 
-    <!-- list of all posts starts here -->
-    <div class = "posts-wrapper">
+        <!-- post 1 initiates here -->
         <div class="blogPost">
             <div class="username">
                 <p>Jimi</p>
@@ -201,7 +206,7 @@
         <!-- post 5 terminates here -->
 
         <!-- code for delete post -->
-        <div id="dltPostModal" class="modal">
+         <div id="dltPostModal" class="modal">
             <!-- Modal content -->
             <div class="modal-content">
               <div class="modal-body">
@@ -213,17 +218,12 @@
               </div>
             </div>
           </div>
-        </div>
-    </div>
 
-    </div>
-    <!-- list of all posts ends here -->
     <br><br>
-
 <!-- Jquery Files-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<!-- JS FILES-->
+<!--  JS file -->
 <script src="../scripts/common.js"></script>
 <script src="../scripts/bloglist.js"></script>
 
