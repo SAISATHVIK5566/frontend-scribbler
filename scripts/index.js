@@ -1,4 +1,4 @@
-var crtPostModal = document.getElementById("crtPostModal");
+var create_PostModal = document.getElementById("create_PostModal");
 
 // code for  create post button
 var createPostButton = document.getElementById("createPostButton");
@@ -17,11 +17,11 @@ closeModal = modal => {
 };
 
 //code to Add events to the buttons
-createPostButton.addEventListener("click", () => openModal(crtPostModal));
-clsCreatePost.addEventListener("click", () => closeModal(crtPostModal));
+createPostButton.addEventListener("click", () => openModal(create_PostModal));
+clsCreatePost.addEventListener("click", () => closeModal(create_PostModal));
 
 window.addEventListener("click", function(event) {
-    if (event.target == crtPostModal) {
-        crtPostModal.style.display = "none";
+    if (event.target == create_PostModal) {
+        create_PostModal.style.display = "none";
     }
 });

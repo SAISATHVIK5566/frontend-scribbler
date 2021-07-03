@@ -19,7 +19,7 @@ h3 {
     color: #8c8a8b !important;
 }
 
-#main-container {
+#main_container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -27,7 +27,7 @@ h3 {
     width: 100% !important;
 }
 
-.postBtnArea {
+.buttonsArea {
     display: flex;
     height: 100% !important;
     width: 100% !important;
@@ -35,7 +35,7 @@ h3 {
     align-items: center;
 }
 
-.postButtons {
+.posts_Buttons {
     background: #cfb53b;
     padding: 8px 5px 8px 5px;
     color: black;
@@ -51,20 +51,20 @@ textarea {
     background-color: #f1f1f1 !important;
 }
 
-#crtPostModal .modal-content {
+#create_PostModal .modal_content {
     width: 85%;
     margin: 4% auto;
 }
 
-#crtPostModal .modal-content .contents {
+#create_PostModal .modal_content .contents {
     min-height: 250px;
 }
 
-#crtPostModal .modal-content .create-btn-div {
+#create_PostModal .modal_content .create-btn-div {
     text-align: center;
 }
 
-#crtPostModal .modal-content .create-btn-div .btn {
+#create_PostModal .modal_content .create-btn-div .btn {
     padding: 5px 25px;
     border-radius: 0;
 }
@@ -73,7 +73,7 @@ input {
     background-color: #f1f1f1 !important;
 }
 
-.btn-success {
+.btn_success {
     margin-top: 30px;
 }
 
@@ -86,7 +86,7 @@ input {
     margin: 10px 10px 0px 10px;
 }
 
-#apt-title {
+#sub_title {
     font-family: 'Marck Script', cursive;
     margin-top: 0;
     margin: 0 0 0px 10px;
