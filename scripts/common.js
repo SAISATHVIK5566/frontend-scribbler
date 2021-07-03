@@ -1,15 +1,15 @@
 // Search for the modals
-var signUpModal = document.getElementById("signup_modal");
-var signInModal = document.getElementById("signin_modal");
+var signUpModal = document.getElementById("signUpModal");
+var signInModal = document.getElementById("signInModal");
 
 // Search for the button to open modals
-var signUpBtn = document.getElementById("signup_button");
-var signInBtn = document.getElementById("signin_button");
-var signUpLink = document.getElementById("signup_link");
+var signUpBtn = document.getElementById("signUpBtn");
+var signInBtn = document.getElementById("signInBtn");
+var signUpLink = document.getElementById("signUpLink");
 
 // Search the button to close modal
-var closeSignUp = document.getElementById("close_signup");
-var closeSignIn = document.getElementById("close_signin");
+var closeSignUp = document.getElementById("closeSignUp");
+var closeSignIn = document.getElementById("closeSignIn");
 
 //Open the modal
 openModal = modal => {
@@ -22,12 +22,12 @@ closeModal = modal => {
 };
 
 // Event to handle the click on Signin/signup buttons
-signInBtn.addEventListener("click", () => openModal(signin_modal));
-signUpBtn.addEventListener("click", () => openModal(signup_modal));
+signInBtn.addEventListener("click", () => openModal(signInModal));
+signUpBtn.addEventListener("click", () => openModal(signUpModal));
 
 // Event to handle close button
-closeSignUp.addEventListener("click", () => closeModal(signup_modal));
-closeSignIn.addEventListener("click", () => closeModal(signin_modal));
+closeSignUp.addEventListener("click", () => closeModal(signUpModal));
+closeSignIn.addEventListener("click", () => closeModal(signInModal));
 
 // Event to handle the click on outer area which closes the modal
 window.addEventListener("click", function(event) {

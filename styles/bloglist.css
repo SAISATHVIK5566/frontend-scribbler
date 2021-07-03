@@ -15,7 +15,7 @@ h3 {
     color: #8c8a8b !important;
 }
 
-#main_container {
+#main-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -32,7 +32,7 @@ h3 {
     margin: 10px 10px 0px 10px;
 }
 
-#sub_title {
+#apt-title {
     font-family: 'Marck Script', cursive;
     margin-top: 0;
     margin: 0 0 0px 10px;

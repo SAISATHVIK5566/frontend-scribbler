@@ -1,4 +1,4 @@
-.top_buttons {
+.topButtons {
     width: 100px;
     height: 40px;
     padding: 8px 5px 8px 5px;
@@ -13,7 +13,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.title_container {
+.title-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -26,7 +26,7 @@
     margin: 0;
 }
 
-.sub_title {
+.sub-title {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 10;
     color: black;
@@ -71,7 +71,7 @@
 
 /* Modal content design */
 
-.modal_content {
+.modal-content {
     background-color: #ffffff;
     margin: 10% auto;
     padding: 10px;
@@ -80,18 +80,18 @@
     border-radius: 0;
 }
 
-.modal_content .modal_heading {
+.modal-content .modal-heading {
     margin: 0;
 }
 
-.not_member {
+.not-member {
     text-align: center;
     margin: 10px;
     font-weight: bold;
     font-size: 12px;
 }
 
-.not_member span {
+.not-member span {
     color: blue;
     cursor: pointer;
 }
@@ -99,7 +99,7 @@
 
 /* The Close Button */
 
-.close_icon {
+.close-icon {
     float: right;
     cursor: pointer;
 }
@@ -108,6 +108,6 @@ input {
     background-color: #f1f1f1 !important;
 }
 
-.button_success {
+.btn-success {
     margin-top: 30px;
 }

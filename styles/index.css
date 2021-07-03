@@ -16,26 +16,26 @@ body {
 }
 
 h3 {
-    color: #8c8a8b;
+    color: #8c8a8b !important;
 }
 
-#main_container {
+#main-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 100%;
-    width: 100%;
+    height: 100% !important;
+    width: 100% !important;
 }
 
-.post_button_area {
+.postBtnArea {
     display: flex;
-    height: 100%;
-    width: 100%;
+    height: 100% !important;
+    width: 100% !important;
     justify-content: center;
     align-items: center;
 }
 
-.post_buttons {
+.postButtons {
     background: #cfb53b;
     padding: 8px 5px 8px 5px;
     color: black;
@@ -48,32 +48,32 @@ h3 {
 
 textarea {
     margin-top: 10px;
-    background-color: #f1f1f1;
+    background-color: #f1f1f1 !important;
 }
 
-#create_post_modal.modal-content {
+#crtPostModal .modal-content {
     width: 85%;
     margin: 4% auto;
 }
 
-#create_post_modal .modal-content .contents {
+#crtPostModal .modal-content .contents {
     min-height: 250px;
 }
 
-#create_post_modal .modal-content .create-btn-div {
+#crtPostModal .modal-content .create-btn-div {
     text-align: center;
 }
 
-#create_post_modal .modal-content .create-btn-div .btn {
+#crtPostModal .modal-content .create-btn-div .btn {
     padding: 5px 25px;
     border-radius: 0;
 }
 
 input {
-    background-color: #f1f1f1;
+    background-color: #f1f1f1 !important;
 }
 
-.button_success {
+.btn-success {
     margin-top: 30px;
 }
 
@@ -86,7 +86,7 @@ input {
     margin: 10px 10px 0px 10px;
 }
 
-#sub_title {
+#apt-title {
     font-family: 'Marck Script', cursive;
     margin-top: 0;
     margin: 0 0 0px 10px;
